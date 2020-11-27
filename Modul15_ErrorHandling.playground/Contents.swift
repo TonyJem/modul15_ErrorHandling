@@ -84,3 +84,40 @@ checkTypes(for: 2, and: 2)
 
 // Should print "No":
 checkTypes(for: 2, and: "2")
+
+// MARK:  - Task 4
+//Реализуйте то же самое, но если тип входных значений различается, выбросите исключение. Если тип одинаковый — тоже выбросите исключение, но оно уже будет говорить о том, что типы одинаковые. Не бойтесь этого. Ошибки — это не всегда про плохой результат.
+print("\n--- Task #4 ---")
+
+enum ComparedTypes: Error {
+    case typesAreDifferent
+    case typesAreSame
+}
+
+func checkTypesAndThrowError<ItemAType, ItemBType>(for itemA: ItemAType, and itemB: ItemBType) throws {
+    if ItemAType.self == ItemBType.self {
+        throw ComparedTypes.typesAreSame
+    } else {
+        throw ComparedTypes.typesAreDifferent
+    }
+}
+
+// Should print "Yes":
+do{
+    try checkTypesAndThrowError(for: 2, and: 2)
+}
+catch ComparedTypes.typesAreSame {
+    print("Yes")
+} catch ComparedTypes.typesAreDifferent {
+    print("No")
+}
+
+// Should print "No":
+do{
+    try checkTypesAndThrowError(for: 2, and: "2")
+}
+catch ComparedTypes.typesAreSame {
+    print("Yes")
+} catch ComparedTypes.typesAreDifferent {
+    print("No")
+}
