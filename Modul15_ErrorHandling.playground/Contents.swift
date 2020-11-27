@@ -79,6 +79,8 @@ func checkTypes<ItemAType, ItemBType>(for itemA: ItemAType, and itemB: ItemBType
         print("No")
     }
 }
-
+// Should print "Yes":
 checkTypes(for: 2, and: 2)
+
+// Should print "No":
 checkTypes(for: 2, and: "2")
