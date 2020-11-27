@@ -1,5 +1,12 @@
 # modul15_ErrorHandling
 
+[Description](## Task Description)
+
+[Implementation](#implementation)
+
+[References](#references)
+
+
 ## Task Description:
  1. Создайте перечисление для ошибок. Добавьте в него 3 кейса:
 
