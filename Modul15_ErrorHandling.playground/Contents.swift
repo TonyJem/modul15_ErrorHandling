@@ -71,3 +71,14 @@ do {
 // MARK:  - Task 3
 //Напишите функцию, которая будет принимать на вход два разных типа и проверять: если типы входных значений одинаковые, то вывести сообщение “Yes”, в противном случае — “No”.
 print("\n--- Task #3 ---")
+
+func checkTypes<ItemAType, ItemBType>(for itemA: ItemAType, and itemB: ItemBType){
+    if ItemAType.self == ItemBType.self {
+        print("Yes")
+    } else {
+        print("No")
+    }
+}
+
+checkTypes(for: 2, and: 2)
+checkTypes(for: 2, and: "2")
