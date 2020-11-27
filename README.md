@@ -1,9 +1,9 @@
 # modul15_ErrorHandling
-[Description](#description)
+[Description](#task_description)
 
 [Acceptance Criteria](#acceptance)
 
-## Description:
+## Task_Description:
  1. Создайте перечисление для ошибок. Добавьте в него 3 кейса:
 
 ошибка 400,
