@@ -121,3 +121,24 @@ catch ComparedTypes.typesAreSame {
 } catch ComparedTypes.typesAreDifferent {
     print("No")
 }
+
+// MARK:  - Task 5
+//Напишите функцию, которая принимает на вход два любых значения и сравнивает их при помощи оператора равенства ==.
+print("\n--- Task #5 ---")
+
+func compareItems<T: Equatable> (_ itemA: T, and itemB: T){
+    if itemA == itemB {
+        print("🟢 Yes! Items are Equal")
+    } else {
+        print("🔴 No! Items are NOT Equal")
+    }
+}
+
+// Should print "Yes! ...":
+compareItems("2", and: "2")
+// Should print "Yes! ...":
+compareItems(2, and: 2)
+// Should print "Yes! ...":
+compareItems(2, and: 2.0)
+// Should print "No! ...":
+compareItems(2, and: 2.01)
