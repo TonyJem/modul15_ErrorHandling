@@ -3,7 +3,6 @@
 
 [Acceptance Criteria](#acceptance)
 
-## Task Description:
 ## Description:
  1. Создайте перечисление для ошибок. Добавьте в него 3 кейса:
 
