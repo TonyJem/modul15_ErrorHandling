@@ -1,6 +1,8 @@
 # modul15_ErrorHandling
 [Description](#taskDescription)
 
+[Description](#description)
+
 [Acceptance Criteria](#acceptance)
 
 ## Task Description:
@@ -47,8 +49,6 @@
 - не выполнено — 0 баллов
 
 Simple iOS App, done as guided project for learning purposes in 2020 May.
-
-[Description](#description)
 
 [Implementation](#implementation)
 
