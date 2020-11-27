@@ -1,11 +1,11 @@
 # modul15_ErrorHandling
-HomeWork
+HomeWork Assignment (iOS development cource)
+ 
+[Description](#task-description)
 
-[Description](#task_description)
+[Acceptance Criteria](#acceptance-criteria)
 
-[Acceptance Criteria](#acceptance_criteria)
-
-## Task_Description:
+## Task Description:
  1. Создайте перечисление для ошибок. Добавьте в него 3 кейса:
 
 ошибка 400,
@@ -22,7 +22,7 @@ HomeWork
 5. Напишите функцию, которая принимает на вход два любых значения и сравнивает их при помощи оператора равенства ==.
  
  
-## Acceptance_Criteria:
+## Acceptance Criteria:
 
 1. Создано перечисление, которое соответствует протоколу Error. Для него создано любые 3 кейса —  ошибки. Есть переменная, которая хранит в себе ошибку (400 или 404 или 500). Есть обработка ошибок перечисления при помои do-catch. Для каждой ошибки выведено сообщение в консоль.
 - выполнено — 2 балла
