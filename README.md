@@ -3,7 +3,7 @@
 
 [Acceptance Criteria](#acceptance)
 
-## Description:
+## D Description:
  1. Создайте перечисление для ошибок. Добавьте в него 3 кейса:
 
 ошибка 400,
