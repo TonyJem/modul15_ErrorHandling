@@ -45,3 +45,20 @@
 - выполнено — 2 балла
 - реализовано частично — 1 балл
 - не выполнено — 0 баллов
+
+Simple iOS App, done as guided project for learning purposes in 2020 May.
+
+[Description](#description)
+
+[Implementation](#implementation)
+
+[References](#references)
+
+## Description:
+This App manages a list of ToDo items and stores it away for later retrieval. User can add, modify, and delete items in the list using a custom input screen. Each ToDo has a due date and a set of notes; it can be marked as complete, but remains in the list until the user deletes it.
+
+#### This app handles the following actions:
+
+  1. Display the list, containing data retrieved from disk.
+  
+  2. Add new items to the list.
